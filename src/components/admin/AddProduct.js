@@ -28,7 +28,7 @@ const AddProduct = () => {
   const dispatch = useDispatch();
 
   const getCategories = async () => {
-    const res = await axios.get("http://localhost:8080/api/v1/category/all");
+    const res = await axios.get("http://localhost:3003/api/v1/category/all");
     const { categories, message } = res.data;
     setCategories(categories);
   };
