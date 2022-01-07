@@ -47,7 +47,7 @@ export default function Product() {
   const { productId } = useParams();
 
   const fetchProduct = (productId) => {
-    const product = products.find((product) => product.id == productId);
+    const product = products.find((product) => product.id === productId);
     setSelectedproduct(product);
   };
   useEffect(() => {

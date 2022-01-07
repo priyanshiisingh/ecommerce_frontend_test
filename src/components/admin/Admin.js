@@ -82,7 +82,7 @@ const AddProduct = () => {
         <Select
           onChange={(e) => {
             const { _id } = categories.find(
-              (category) => category.name == e.target.value
+              (category) => category.name === e.target.value
             );
             setcategory(_id);
           }}
