@@ -11,21 +11,19 @@ import { IoReloadCircleOutline } from "react-icons/io5";
 
 const Feature = ({ title, text, icon }) => {
   return (
-    <Stack>
-      <Flex
-        w={16}
-        h={16}
-        align={"center"}
-        justify={"center"}
-        color={"white"}
-        rounded={"full"}
-        bg={"gray.100"}
-        mb={1}>
-        {icon}
-      </Flex>
-      <Text fontWeight={600}>{title}</Text>
-      <Text color={"gray.600"}>{text}</Text>
-    </Stack>
+    <>
+      <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore
+        officia natus quasi molestias mollitia voluptatem voluptatum, ut nam
+        possimus maiores.
+      </div>
+      <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit rerum
+        consequatur similique? Facilis beatae natus quisquam quibusdam assumenda
+        saepe repellat excepturi quasi, corporis maiores placeat, aliquid non
+        doloribus? Porro, dignissimos?
+      </div>
+    </>
   );
 };
 
